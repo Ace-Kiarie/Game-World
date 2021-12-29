@@ -16,14 +16,10 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 
 const computerChoice = () =>{
     const randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
-    
-    if(randomNumber === 1){
-        computerOption = "Rock"
-    } else if(randomNumber === 2){
-        computerOption = "Paper"
-    }else{
-        computerOption = "Scissors"
-    }
+
+    randomNumber === 1 ? computerOption = "Rock" :
+    randomNumber === 1 ? computerOption = "Paper" :
+    computerOption = "Scissors"
 
     computerChoiceDisplay.innerHTML = computerOption
 }
