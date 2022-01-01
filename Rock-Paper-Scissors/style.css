@@ -1,0 +1,99 @@
+:root{
+    --bg-color: rgb(44, 44, 70);
+    --secondary-color:rgb(64, 64, 163);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.header-section{
+    height: 100px;
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    background-color:rgb(213, 213, 213);
+    margin-bottom: 50px;
+}
+
+.header-section h3{
+    font-size: 30px;
+    color: rgb(87, 87, 87);
+}
+
+.score-board{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: var(--bg-color);
+    border: 2px solid white;
+    margin: 0px auto;
+    margin-bottom:30px;
+    padding: 37px 0px;
+}
+
+.score-board span{
+    font-size: 20px;
+}
+
+.score-board .players{
+    display: flex;
+}
+
+.players #user-label{
+    position: absolute;
+    top:183px;
+    left: 510px;
+    background-color: var(--secondary-color);
+    padding: 7px 12px;
+}
+
+.players #computer-label{
+    position: absolute;
+    top:183px;
+    right: 500px;
+    background-color: var(--secondary-color);
+    padding: 7px 12px;
+}
+
+.results{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.choices{
+    margin: 0px auto;
+    margin-bottom: 30px;
+    font-size:40px;
+    color: rgb(162, 162, 162);
+    cursor: pointer;
+}
+
+.choices .choice{
+    margin-left: 30px;
+    background-color: var(--bg-color);
+    border: solid 3px white;
+    border-radius:40px;
+    padding: 10px 11px; 
+}
+
+.choices .choic{
+    background-color: var(--bg-color);
+    border: solid 3px white;
+    border-radius:40px;
+    padding: 10px 11px; 
+}
+
+.action-message{
+    font-size: 14px;
+}
+
